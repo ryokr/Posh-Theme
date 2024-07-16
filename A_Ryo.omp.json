@@ -1,0 +1,32 @@
+{
+  "version": 2,
+  "blocks": [
+    {
+      "type": "prompt",
+      "alignment": "left",
+      "segments": [
+        {
+          "type": "session",
+          "style": "diamond",
+          "background": "#f0dcff",
+          "foreground": "#ff4400",
+          "trailing_diamond": "\ue0b0",
+          "template": "\uf0da \uf4c8 Ryo.o "
+        },
+        {
+          "type": "path",
+          "style": "diamond",
+          "background": "#9c3fff",
+          "foreground": "#ffffff",
+          "trailing_diamond": "\ue0b0 ",
+          "template": " \uf44f  {{ .Path }} ",
+          "properties": {
+            "folder_icon": "\uf115",
+            "folder_separator_icon": "\\",
+            "style": "full"
+          }
+        }
+      ]
+    }
+  ]
+}
